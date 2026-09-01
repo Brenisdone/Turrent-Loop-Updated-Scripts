@@ -6,7 +6,7 @@ var multiplier:int = 1
 var luck:int = 0
 var level = 0
 var time = 0 #overall_time
-var spawn_time:float = 9999 #inital timer value
+var spawn_time:float = 5.0 #inital timer value
 var mode:String = "attack"
 
 var enemies:Array = ["res://scenes/enemy_1.tscn","res://scenes/enemy_2.tscn","res://scenes/enemy_3.tscn"]
